@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BhaveshisError - Personal Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+            font-family: monospace;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            border: 2px solid green;
+            margin: 20px;
+        }
+
+        .text-animation {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .word-animation {
+            display: inline-block;
+            opacity: 0;
+            animation: fadeIn 1s ease-in-out infinite;
+        }
+
+        .text-animation {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s steps(20) forwards, live 2s infinite;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes live {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-animation">
+            <span class="word-animation">Welcome</span>
+            <span class="word-animation"></span>
+            <span class="word-animation">To</span>
+            <span class="word-animation"></span>
+            <span class="word-animation">BhaveshIsError's</span>
+            <span class="word-animation"></span>
+            <span class="word-animation">Personal</span>
+            <span class="word-animation"></span>
+            <span class="word-animation">WebPage</span>
+        </h1>
+        <div class="text-animation">
+            <p>Full Name: Bhavesh Kushwaha</p>
+            <p>Nickname: BhaveshisError</p>
+            <p>Location: Gwalior, Madhya Pradesh, India</p>
+            <p>Hobby: Exploring new things</p>
+            <p>Aspirations: pursue a passion for programming</p>
+            <p>School: Global International Public School, Dabra</p>
+            <footer>
+                <p>Contact: bhavesherror626@gmail.com</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
